@@ -18,7 +18,7 @@ path =  "src/myprog.rs"
 
 [dependencies.hyper]
 version = "=0.6"
-default-features = false
+#default-features = false
 
 [dependencies.compiletest_rs]
 version = "*"
@@ -36,7 +36,6 @@ groupable = "0.2"
 mustache = "0.6"
 lazy_static = "0.1"
 modifier = "0.1"
-hyper = "0.6.6"
 nickel = "*"
 #myprogs = {git = "https://github.com/robisys/myprogs.git"}
 
